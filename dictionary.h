@@ -1,5 +1,3 @@
-// B511026 김민준
-
 #ifndef DICTIONARY_H
 #define DICTIONARY_H
 #include <iostream>
