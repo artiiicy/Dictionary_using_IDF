@@ -1,5 +1,3 @@
-// B511026 김민준
-
 #include <iostream>
 #include <fstream>
 #include <string>
