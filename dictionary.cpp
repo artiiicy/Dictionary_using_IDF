@@ -1,15 +1,9 @@
-// B511026 김민준
-
 #include "dictionary.h"
 
 bool IsAlpha(int c) { return c >= 'a' && c <= 'z' || c >= 'A' && c <= 'Z'; }
-
 bool IsDigit(int c) { return c >= '0' && c <= '9'; }
-
 bool IsBlank(int c) { return c == ' ' || c == '\t' || c == '\n'; }
-
 bool IsOtherCode(int c) { return c < -1 || c > 127; }	// ascii나 eof아님 (한글, 한문 등)
-
 bool IsLetter(int c) { return IsAlpha(c) || IsOtherCode(c); }
 
 void SkipBlanks(istream& in)
