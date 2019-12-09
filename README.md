@@ -7,13 +7,13 @@ IDF를 사용한 Dictionary program을 구현하였다.
 3. consult를 사용하여 query를 날리면 관련 문서들이 출력된다.
 
 ## step1
+- step1 : ir.docnames의 모든 문서들에 대하여 등장하는 모든 단어들을 중복을 허용하여 출력한다.
 ```
 make step1
 step1
 ```
-- step1 : ir.docnames의 모든 문서들에 대하여 등장하는 모든 단어들을 중복을 허용하여 출력한다.
-
+단어들을 정렬하여 출력할수도 있다.
 ```
 step1 | sort
 ```
-를 통해서 단어들을 정렬하여 출력한다.
+
